@@ -7,4 +7,4 @@ Design Ideas:
 Use aside as nav bar 
 darkolivegreen color pallet
 use fixed background images
-showcase sSShipping
+showcase Shipping software build
