@@ -37,7 +37,7 @@ nav {
     border-bottom: solid 5px rgba(85, 107, 47, 0.537);
     width: fit-content;
     margin-left: auto;
-    margin-top: 210px;
+    margin-top: 180px;
 }
 
 
@@ -45,7 +45,7 @@ nav a {
     color: white;
     text-decoration: none;
     padding: 10px;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
+    text-shadow: 2px 2px 5px rgb(0, 0, 0)    
 }
 
 nav a:hover {
@@ -68,48 +68,83 @@ main {
 #text {
     text-align: left;
     margin: 120px 20px 20px 120px;
-    padding: 20px;
+    padding: 5px;
     font-size: larger;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-#text2 {
-    text-indent: 150px;
+#text1:hover {
+    background-color: rgba(239, 145, 23, 0.064);
+    border-radius: 10px;
+    /* margin: 15px; 
+    padding: 2px; */
+    width: fit-content;
+    border-bottom: solid 5px rgba(85, 107, 47, 0.537);
+    /* border-left: solid 5px rgba(85, 107, 47, 0.537); */
 }
+
+#text2 {
+    text-indent: 120px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
 
 #finalText {
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
     text-indent: 500px;
-    
+    cursor: pointer;
 }
 
-#game{
+#game,
+#Shakespeare {
     border-bottom: solid 5px rgba(85, 107, 47, 0.537);
     width: fit-content;
     margin: 15px; 
+    padding: 2px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
 }
 
 #game:hover {
-    font-size: larger;
+    /* font-size: larger; */
+    background-color: rgba(239, 145, 23, 0.104);
+    border-radius: 10px;
+    border-left: solid 5px rgba(85, 107, 47, 0.537);
 }
+
+#Shakespeare:hover {
+    border-radius: 10px;
+    border-left: solid 5px rgba(85, 107, 47, 0.537);
+    background-color: rgba(85, 107, 47, 0.216);
+}
+
 
 footer {
     margin: 0px;
     padding: 20px;
-    position: fixed;
     bottom: 0px;
+    position: fixed;
     /* background-color: rgba(85, 107, 47, 0.537); */
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
     width: 100%;
-    /* border-top-left-radius: 10px;
-    border-top-right-radius: 10px; */
+
 }
 
-#footer {
-    text-align: right;
-    margin-right: 50px;
-    font-size: larger;
+footer p {
+    margin-bottom: 2px;
+    line-height: 0.5;
 }
+
+/* #footer {
+    text-align: left;
+    
+}
+
+#copyright {
+    
+    margin-right: 50px;
+    
+} */
 
 footer a {
     text-decoration: none;
