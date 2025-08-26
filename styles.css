@@ -49,7 +49,7 @@ nav a {
 }
 
 nav a:hover {
-    font-size: larger;
+    font-size: large;
 }
 
 #home {
@@ -60,6 +60,49 @@ nav a:hover {
     background-image: url("/images/pexels-jmleczek-1166847.jpg");
 }
 
+#blog {
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: url("images/pexels-mali-1483064.jpg");
+}
+#blog #title1 {
+    color: rgba(12, 211, 222, 0.659);
+    margin-left: 450px;
+    margin-top: 0px;
+    transform-origin: top left;
+    transform: rotate(5.5deg)
+}
+
+#blogContent {
+    margin-left: 450px;
+    width: 465px;
+    perspective-origin: right;
+    perspective: 500px; /*this is what makes it have depth*/
+}
+
+#blog h2 {
+    transform-origin: top left;
+    transform: rotate(3.5deg);
+}
+
+article {
+    padding: 20px;
+    font-size: larger;
+    background-color: inherit;
+    border: none;
+    color: white;
+    transform-origin: 50% 100%;
+    transform: rotateY(10deg);
+    
+}
+
+#blog nav {
+width: 150px;
+height: 155px;
+}
+
 main {
     margin: 0px;
     padding: 20px;
@@ -67,20 +110,28 @@ main {
 
 #text {
     text-align: left;
-    margin: 120px 20px 20px 120px;
+    margin: 150px 20px 20px 120px;
     padding: 5px;
     font-size: larger;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+#text1 {
+    border-bottom: solid 5px rgba(85, 107, 47, 0.537);
+    width: fit-content;
+    padding: 2px;
 }
 
 #text1:hover {
-    background-color: rgba(239, 145, 23, 0.064);
+    /* background-color: rgba(239, 145, 23, 0.064); */
+    background-color: rgba(85, 107, 47, 0.216);
     border-radius: 10px;
     /* margin: 15px; 
     padding: 2px; */
     width: fit-content;
     border-bottom: solid 5px rgba(85, 107, 47, 0.537);
-    /* border-left: solid 5px rgba(85, 107, 47, 0.537); */
+    border-left: solid 5px rgba(85, 107, 47, 0.537);
 }
 
 #text2 {
