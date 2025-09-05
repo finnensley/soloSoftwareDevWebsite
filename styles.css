@@ -7,7 +7,8 @@ body {
 header {
   margin: 0px;
   color: white;
-  padding: 20px 20px 20px 20px;
+  /* padding: 20px 20px 20px 20px; */
+  padding: 0;
   background-color: rgba(85, 107, 47, 0.484);
   /* border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px; */
@@ -18,13 +19,18 @@ header {
 .header-flex {
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: center;
+  line-height: 1;
+  padding: 10px;
+  width: 100vw;
 }
 
 .header-flex h2 {
   margin-top: 0;
   margin-bottom: 0px;
-  margin-left: 8vw;
+  margin-left: 6vw;
+  padding: 0px 0px 20px 0px;
+  align-self: center;
 }
 
 #aside1 {
@@ -81,7 +87,7 @@ nav a:hover {
   align-items: flex-start;
   gap: 4vh;
   margin: 20vh 0 0 0vw; /*top, right, bottom, left*/
-  width: 60vw;
+  width: 50vw;
   flex: 1;
   width: auto;
   /* font-size: large; */
@@ -90,12 +96,11 @@ nav a:hover {
 #game {
   width: fit-content;
   height: fit-content;
-  /* width: 60%; */
-  /* height: 60%; */
   display: block;
   text-align: left;
   box-sizing: border-box;
-  margin-left: 5vw;
+  /* margin-left: 5vw; */
+  align-self: center;
   padding: 20px;
   font-size: larger;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -106,7 +111,7 @@ nav a:hover {
 }
 
 .stare {
-  margin-left: 7vw;
+  margin-left: 6vw;
 }
 
 #game:hover {
@@ -119,10 +124,15 @@ nav a:hover {
   height: fit-content;
   text-align: center;
   box-sizing: border-box;
-  margin-top: 10vh;
-  margin-left: 20vw;
+  /* margin-top: 10vh; */ /*add back if keeping game*/
+  /* margin-left: 20vw; */
+  margin-top: 30vh; /*remove if adding back game*/
+  align-self: center;
+  justify-content: center;
+  /* flex-wrap: wrap; */
+  /* flex-grow: 100%; */
   padding: 30px;
-  font-size: larger;
+  font-size: x-large;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   border-bottom: solid 5px rgba(85, 107, 47, 0.537);
   border-radius: 20px;
@@ -139,9 +149,10 @@ nav a:hover {
   height: fit-content;
   box-sizing: border-box;
   margin-top: 5vh;
-  margin-left: 70vw;
+  /* margin-left: 70vw; */
+  align-self: center;
   padding: 5px;
-  font-size: larger;
+  font-size: x-large;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   border-bottom: solid 5px rgba(85, 107, 47, 0.537);
   border-radius: 10px;
@@ -317,7 +328,10 @@ article {
 
   .stare {
     margin-left: 15vw;
+    /* position: relative;
+    align-self: center; */
   }
+
   header, 
   footer {
     position: fixed;
