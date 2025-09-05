@@ -9,6 +9,14 @@ darkolivegreen color pallet
 use fixed background images
 showcase Shipping software build
 
+Challenges: 
+## touch screen friendly for hover, buttons ?
+## make page open to nav under header in responsive mode
+## don't need scroll for home page
+## should nav bar in responsive mode stretch the width: 100vw;
+## responsiveness needs work
+
+
 ## Content erased from html
 
 <!-- <div id="text">
